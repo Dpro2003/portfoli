@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mr Subhodeep Polley</title>
+        <link rel="icon" href="favicon.ico?v=2">
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="https://kit.fontawesome.com/6b426b4af5.js" crossorigin="anonymous"></script>
+       
+    </head>
+    <body>
+
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.png" alt="error" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">Abouts</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    
+                </nav>
+                <div class="headertxt">
+                    <p>Full Stack Web Developer</p>
+                    <h1>Hi,I am <span> Subhodeep</span> <br> Polley from India</h1>
+                </div>
+
+            </div>
+
+
+        </div>
+<!-------about------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="image.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, natus cupiditate eaque rem, dolor nulla doloremque consequuntur ab explicabo aliquam necessitatibus eveniet sed voluptatem incidunt tenetur rerum illo eius fugit nisi veniam.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links active-link"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links active-link"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing For Web Apps</li>
+                                <li><span>Web Development</span> <br> Web App Development<br></li>
+                                <li><span>Machine Leaning</span> <br>Model Development<br></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>ChatBot</span><br>Using ML</li>
+                                <li><span>Weither</span> <br> Web App <br></li>
+                                <li><span>AI Using</span> <br>Smart Door Lock<br></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020</span><br>Higher Secondary Passout From Howrah Zilla Govt. School</li>
+                                <li><span>B.Tech</span> <br>Doing On Computer Science And Technology From University of Engineering And Management,Kolkata  <br></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="services">
+                <div class="container">
+                    <h1 class="sub-title">My Services</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Web design is the process of planning, conceptualizing, and arranging content online. <br> Today, designing a website goes beyond aesthetics to include the website’s overall functionality. <br> Web design also includes web apps, mobile apps, and user interface design. </p>
+                         <a href="#">learn more</a>
+                    </div>
+                    <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2> UI/UX Design</h2>
+                        <p>It is significant because a well-designed user interface anticipates user preferences and facilitates user use. <br> An excellent user interface design focuses on various factors, including appearance, responsiveness, effectiveness, and accessibility.</p>
+                         <a href="#">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-android"></i>
+                        <h2> App Development</h2>
+                            <p>Android operating system is the largest installed base among various mobile platforms across the globe. Hundreds of millions of mobile devices are powered by Android in more than 190 countries of the world. It conquered around 71% of the global market share by the end of 2021, and this trend is growing bigger every other day. The company named Open Handset Alliance developed Android for the first time that is based on the modified version of the Linux kernel and other open-source software. Google sponsored the project at initial stages and in the year 2005, it acquired the whole company.</p>
+                             <a href="#">learn more</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+      <!--------contacts---------->
+      <div id="contacts"></div>
+      <div class="container">
+        <div class="row">
+            <div class="contact_left">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>subhodeeppolley51@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+918017195668</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/subhodeep.polley.393"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/subhodeep-polley-90941323a"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Dpro2003"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/subhodeep.polley.393"><i class="fa-brands fa-instagram"></i></a>
+                    
+                </div>
+                <br>
+                <a  href="My_Cv.pdf" download class="bt bt2">Download Cv</a>
+            </div>
+            <div class="contact_right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="bt bt2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright by Subhodeep. </p>
+        </div>
+      </div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+
+    function opentab(tabnames){
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabnames).classList.add("active-tab")
+    }
+</script>
+<script>
+    let sidemen = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemen.style.right="0";
+
+    }
+    function closemenu(){
+        sidemen.style.right="-200px";
+
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzI7dGgIt8XV0yS97jWB4oZGdV4djvdg42AOEHYB6LUsygUOzVcl14oBPgQc7Epts3qMg/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
